@@ -1,0 +1,18 @@
+server:
+    port: 8080
+spring:
+    jpa:
+      database-platform: org.hibernate.community.dialect.SQLiteDialect
+    datasource:
+      driver-class-name: org.sqlite.JDBC
+      url: jdbc:sqlite:user.db
+hibernate:
+    show_sql: true
+    hbm2ddl:
+          auto: none
+username: i
+password: ss
+
+
+
+
